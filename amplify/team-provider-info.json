@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tusk-dev-130040-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533267194535:role/amplify-tusk-dev-130040-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533267194535:role/amplify-tusk-dev-130040-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tusk-dev-130040-deployment",
+      "UnauthRoleName": "amplify-tusk-dev-130040-unauthRole",
+      "StackName": "amplify-tusk-dev-130040",
+      "StackId": "arn:aws:cloudformation:eu-west-1:533267194535:stack/amplify-tusk-dev-130040/89a32ff0-dbb9-11ee-8d02-063022a021a7",
+      "AmplifyAppId": "d3jj32584g9nww"
+    },
+    "categories": {
+      "api": {
+        "tusk": {}
+      },
+      "auth": {
+        "tuskfd6d696f": {}
+      }
+    }
+  }
+}
