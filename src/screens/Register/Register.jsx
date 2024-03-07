@@ -70,6 +70,12 @@ const Register = ({ navigation }) => {
         >
           <Text style={styles.loginButtonText}>Go To Login</Text>
         </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.loginButton}
+          onPress={() => navigation.navigate("ConfirmEmail")}
+        >
+          <Text style={styles.loginButtonText}>Go To confirm email</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
