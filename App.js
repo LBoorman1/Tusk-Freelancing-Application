@@ -10,6 +10,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Amplify } from "aws-amplify";
 import amplifyconfig from "./src/amplifyconfiguration.json";
 import ConfirmEmail from "./src/screens/ConfirmEmail/ConfirmEmail";
+import Home from "./src/screens/Home/Home";
 
 Amplify.configure(amplifyconfig);
 
@@ -22,6 +23,7 @@ const App = () => {
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="ConfirmEmail" component={ConfirmEmail} />
+        <Stack.Screen name="Home" component={Home} />
       </Stack.Navigator>
     </NavigationContainer>
   );

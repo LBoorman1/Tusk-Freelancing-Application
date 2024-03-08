@@ -20,7 +20,7 @@ const Register = ({ navigation }) => {
   const onSignUpPressed = async () => {
     try {
       const { username, email, password } = formData;
-      const response = await signUp({
+      await signUp({
         username,
         password,
         options: {
@@ -29,7 +29,7 @@ const Register = ({ navigation }) => {
           },
         },
       });
-      console.log(response);
+      navigation.navigate('ConfirmEmail', {username})
     } catch (error) {
       Alert.alert("Oops", error.message);
     }
